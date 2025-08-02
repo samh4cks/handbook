@@ -1,8 +1,8 @@
 ---
 title: Demo Page
-type: docs
+type: handbook
 prev: /
-next: docs/folder/
+next: handbook/folder/
 ---
 
 A simple demo page.

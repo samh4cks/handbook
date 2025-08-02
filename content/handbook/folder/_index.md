@@ -1,8 +1,8 @@
 ---
 title: Folder
-type: docs
-prev: docs/first-page
-next: docs/folder/leaf
+type: handbook
+prev: handbook/first-page
+next: handbook/folder/leaf
 sidebar:
   open: true
 ---
