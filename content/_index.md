@@ -1,6 +1,5 @@
 ---
-title: My Site
-toc: false
+title: Welcome :)
 ---
 
 This is the landing page.
@@ -9,9 +8,5 @@ This is the landing page.
 
 {{< cards >}}
   {{< card link="handbook" title="HandBook" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
 {{< /cards >}}
 
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).

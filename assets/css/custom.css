@@ -1,0 +1,10 @@
+:root {
+  --primary-hue: 90deg;
+  --primary-saturation: 90%;
+  --primary-lightness: 50%;
+}
+
+.sidebar-container {
+  width: 300px; /* or whatever you prefer */
+  min-width: 300px;
+}

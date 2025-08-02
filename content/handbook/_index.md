@@ -1,6 +1,6 @@
 ---
-title: Documentation
 next: first-page
+order: 1
 ---
 
 This is a demo of the theme's documentation layout.
