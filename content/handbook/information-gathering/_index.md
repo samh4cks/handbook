@@ -45,7 +45,8 @@ Focus not only on what you can see (open ports, known services) but also what’
 ##### • The Goal:
 To discover all possible paths to your target calmly and methodically, not just to “break in” quickly. This strategic groundwork makes penetration testing smarter and far more effective.
 
-![landscape](/handbook/static/information-gathering/enumeration-map.png)
+![Enumeration Map](/handbook/information-gathering/enumeration-map.png)
+
 
 | Layer              | Description                                                                                     | Information Categories                                                                                          |
 |--------------------|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
