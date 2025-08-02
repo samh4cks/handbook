@@ -2,8 +2,9 @@
 title: Host Discovery
 type: handbook
 prev: handbook/network-enumeration/
+weight: 1
 ---
-
+---
 ### Cheatsheet
 
 | Command                                                                                                             | Description                              |

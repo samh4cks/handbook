@@ -1,6 +1,7 @@
 ---
 title: "About"
 url: "/handbook/about/"
+weight: 1
 ---
 
 <meta http-equiv="refresh" content="0; url=https://samarthdad.com/about/" />

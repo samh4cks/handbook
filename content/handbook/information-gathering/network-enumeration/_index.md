@@ -1,9 +1,9 @@
 ---
 title: Network Enumeration (NMAP)
 type: handbook
-prev: handbook/network-enumeration/
+weight: 1
 ---
-
+---
 
 **Network enumeration** is a systematic process used in penetration testing to actively probe and gather detailed information 
 about a target network. Unlike passive reconnaissance, enumeration involves establishing direct communication with systems, 

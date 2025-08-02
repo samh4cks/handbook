@@ -1,8 +1,8 @@
 ---
 title: Information Gathering
 type: handbook
-prev: handbook/first-page
-next: handbook/information-gathering/leaf
+weight: 3
+---
 ---
 
 Information gathering (also called reconnaissance) is the first and one of the most critical phases in the penetration testing process. 

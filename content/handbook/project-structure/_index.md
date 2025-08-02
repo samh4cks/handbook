@@ -1,7 +1,8 @@
 ---
 title: "Project Structure Scripts"
 description: "Shell scripts for setting up CTF and Red Team project directories"
-order: 1
+weight: 2
+---
 ---
 Use the following scripts to quickly create standardized directories for your pentesting or red team engagements. It helps keep things clean, organized, and consistent.
 

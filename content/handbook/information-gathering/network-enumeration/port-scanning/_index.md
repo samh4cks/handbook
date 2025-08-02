@@ -2,8 +2,9 @@
 title: Port Scanning
 type: handbook
 prev: handbook/port-scanning/
+weight: 2
 ---
-
+---
 #### Discovering Open TCP Ports
 
 | Command                                                                                          | Description           |
