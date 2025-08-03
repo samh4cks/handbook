@@ -19,6 +19,7 @@ Firewalls manage network traffic by allowing, blocking, or restricting connectio
 
 
 | Commands                                                                    | Description |
+|-----------------------------------------------------------------------------|-------------|
 | `sudo nmap <target> -p<ports> -sS -Pn -n --disable-arp-ping --packet-trace` | SYN Scan    |
 | `sudo nmap <target> -p<ports> -sA -Pn -n --disable-arp-ping --packet-trace` | ACK Scan    |
 
@@ -33,6 +34,7 @@ Uses multiple fake IPs along with your real IP to hide the scan source. Helps by
 
 
 | Commands                                                                                          | Description                    |
+|---------------------------------------------------------------------------------------------------|--------------------------------|
 | `sudo nmap <target> -p<port> -sS -Pn -n --disable-arp-ping --packet-trace -D RND:5`               | Scan using Decoy               |
 | `sudo nmap <target> -n -Pn -p<port> -O`                                                           | Testing Firewall Rules         |
 | `sudo nmap <target> -n -Pn -p<port> -O -S <diff IP> -e <interface>`                               | Scan using different source IP |
