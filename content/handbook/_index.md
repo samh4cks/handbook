@@ -1,5 +1,5 @@
 ---
-title: Samarth's Handbook
+title: 
 order: 1
 ---
 ---
