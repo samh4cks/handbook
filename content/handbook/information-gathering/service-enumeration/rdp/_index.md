@@ -7,16 +7,17 @@ weight: 17
 
 ### Cheat sheet 
 
-| Command                                                                 | Description                                 |
-|-------------------------------------------------------------------------|---------------------------------------------|
-| `nmap -p3389 -sV <target>`                                              | Detect RDP service and version              |
-| `nmap -p3389 --script rdp-enum-encryption <target>`                     | Check supported RDP encryption methods      |
-| `nmap -p3389 --script rdp-ntlm-info <target>`                           | Pull NTLM domain, user, and workgroup info  |
-| `ncrack -p 3389 -U users.txt -P pass.txt <target>`                      | Brute-force RDP credentials using Ncrack    |
-| `hydra -t 4 -V -f -u -l <user> -P rockyou.txt rdp://<target>`           | Brute-force RDP using Hydra                 |
-| `xfreerdp /u:<user> /p:<pass> /v:<target>`                              | Connect using FreeRDP                       |
-| `rdesktop -u <user> -p <pass> <target>`                                 | Legacy RDP client (may still work)          |
-| `rdpscan <target>`                                                      | Scan for RDP-related CVEs and version info  |
+| Command                                                                 			 | Description                                 |
+|------------------------------------------------------------------------------------|---------------------------------------------|
+| `nmap -p3389 -sV <target>`                                              			 | Detect RDP service and version              |
+| `nmap -p3389 --script rdp-enum-encryption <target>`                     			 | Check supported RDP encryption methods      |
+| `nmap -p3389 --script rdp-ntlm-info <target>`                           			 | Pull NTLM domain, user, and workgroup info  |
+| `ncrack -p 3389 -U users.txt -P pass.txt <target>`                      			 | Brute-force RDP credentials using Ncrack    |
+| `hydra -t 4 -V -f -u -l <user> -P rockyou.txt rdp://<target>`            			 | Brute-force RDP using Hydra                 |
+| `xfreerdp /u:<user> /p:<pass> /v:<target>`                                         | Connect using FreeRDP                       |
+| `rdesktop -u <user> -p <pass> <target>`                                            | Legacy RDP client (may still work)          |
+| `rdpscan <target>`                                                                 | Scan for RDP-related CVEs and version info  |
+| `xfreerdp /u:<user> /p:<pass> /v:<target> /drive:<path-to-directory>,<share-name>` | Uploading a share using RDP                 |
 
 ### NSE Scripts
 
