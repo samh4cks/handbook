@@ -18,6 +18,7 @@ weight: 17
 | `rdesktop -u <user> -p <pass> <target>`                                            | Legacy RDP client (may still work)          |
 | `rdpscan <target>`                                                                 | Scan for RDP-related CVEs and version info  |
 | `xfreerdp /u:<user> /p:<pass> /v:<target> /drive:<path-to-directory>,<share-name>` | Uploading a share using RDP                 |
+| `xfreerdp /v:<target> /u:<user> /p:<pass> +clipboard`								 | Redirection clipboard	  				   |
 
 ### NSE Scripts
 
