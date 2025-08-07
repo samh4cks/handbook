@@ -39,8 +39,15 @@ menu:
       weight: 2
       params:
         type: search
+services:
+  googleAnalytics:
+    ID: G-82Z7CTG8BT
 
 params:
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
   assets:
     customCSS:
       - css/custom.css
@@ -49,6 +56,13 @@ params:
     displayTitle: true
     displayLogo: false
 
-
   page:
     width: full
+
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
