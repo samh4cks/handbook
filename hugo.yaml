@@ -56,6 +56,10 @@ params:
     displayTitle: true
     displayLogo: false
 
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+
   page:
     width: full
 
