@@ -67,4 +67,4 @@ pip3 install pycryptodome
 | `SELECT table_name FROM all_tables;`                       | List all accessible tables    |
 | `SELECT table_name FROM user_tables;`                      | List user-owned tables        |
 | `DESC <table_name>;`                                       | Describe table structure      |
-| `SELECT * FROM <table_name> WHERE ROWNUM <= 10;`           | Show first 10 rows of a table |
+| `SELECT * FROM <table_name> WHERE ROWNUM <= 10;`           | Show first 10 rows of a table |x
