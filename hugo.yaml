@@ -32,7 +32,6 @@ menu:
         icon: 
     - name: About
       weight: 2
-      url: "https://samarthdad.com/about"
       params:
         icon:     
     - name: Search
