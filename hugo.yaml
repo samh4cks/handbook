@@ -29,11 +29,7 @@ menu:
       weight: 1
       url: "https://samarthdad.com"
       params:
-        icon: 
-    - name: About
-      weight: 2
-      params:
-        icon:     
+        icon:    
     - name: Search
       weight: 2
       params:
