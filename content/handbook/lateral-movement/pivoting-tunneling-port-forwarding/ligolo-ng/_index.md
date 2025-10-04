@@ -122,3 +122,9 @@ ligolo-ng >> ifconfig
 [Agent : ubuntu@WEB01] »  
 ```
 
+To use various tools on internal network, you need to start the tunneling to the pivot host on ligolo-ng proxy.
+
+```bash
+[Agent : ubuntu@WEB01] » tunnel_start --tun ligolo
+INFO[0718] Starting tunnel to ubuntu@WEB01 (005056b00275) 
+```
