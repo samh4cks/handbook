@@ -42,7 +42,7 @@ ssh -L 1234:localhost:3306 -L 8080:localhost:80 ubuntu@<ip-address>
 
 ### Setting up to Pivot
 
-![](ssh_tunneling.webp1)
+![](ssh_tunneling.webp)
 
 #### Enabling Dynamic Port Forwarding with SSH
 
